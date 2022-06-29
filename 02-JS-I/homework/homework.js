@@ -128,8 +128,8 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if(numero > 0){P = 'Es positivo';}
-  else if(numero < 0) {P = 'Es negativo';}
+  if(numero > 0){P = "Es positivo";}
+  else if(numero < 0) {P = "Es negativo";}
   else if (numero = 0){P = false;}
   return P;}
 
@@ -145,42 +145,44 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  return }
+  Nombrecompleto = nombre + " " + apellido;
+  return Nombrecompleto;}
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  
-}
+  s = '!';
+  saludo= "Hola " + nombre + s;
+  return saludo;}
 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  
-}
+  Area= alto * ancho;
+  return Area;}
 
 
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  
-}
+  Peri= (4*lado);
+  return Peri;}
 
 
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-
-}
+  Areatriangulo = (base*altura)/2;
+  return Areatriangulo;}
 
 
 function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  
-}
+Cambioadolar=(euro*1.20);
+return Cambioadolar;}
 
 
 function esVocal(letra){
@@ -189,7 +191,6 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  
 }
 
 
